@@ -1,7 +1,7 @@
 function HeroText() {
   return (
-    <div className="text-center">
-      <h1 className="absolute font-bold text-5xl sm:text-8xl top-1/4 text-center ">
+    <div className="flex justify-center items-center">
+      <h1 className="absolute font-bold text-6xl sm:text-7xl md:text-8xl top-1/4 text-center ">
         Lets create something <br />
         <span>great together.</span>
       </h1>
