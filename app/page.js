@@ -1,12 +1,8 @@
-import HeroSectionBG from "./HeroSectionBG";
-
-import HeroText from "./HeroText";
-import Image from "next/image";
-import HeroImage from "./HeroImage";
 import Into from "./Into";
 import MidSection from "./MidSection";
 import HomeBgSection from "./HomeBgSection";
 import TeamSection from "./TeamSection";
+import Metrics from "./Metrics";
 
 function Page() {
   return (
@@ -20,6 +16,7 @@ function Page() {
       />
       <MidSection />
       <TeamSection />
+      <Metrics />
     </>
   );
 }

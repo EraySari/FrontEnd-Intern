@@ -7,10 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        even: "0px 0px 10px rgba(0, 0, 0, 0.3)",
+      },
       colors: {
         primary: "#FFFFFF",
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        metric: "#101010",
       },
     },
   },
