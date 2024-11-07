@@ -1,7 +1,7 @@
 import Image from "next/image";
-import HeroSectionBG from "./HeroSectionBG";
+import HeroSectionBG from "../hero/HeroSectionBG";
 import HeroText from "./HeroText";
-import HeroImage from "./HeroImage";
+import HeroImage from "../hero/HeroImage";
 
 import BG from "@/public/BG.png";
 import BgShape from "@/public/BgShape.png";

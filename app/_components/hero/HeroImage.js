@@ -5,12 +5,11 @@ import image4 from "@/public/image4.png";
 import image5 from "@/public/image5.png";
 import image6 from "@/public/image6.png";
 
-import Image from "next/image";
 import HeroHand from "./HeroHand";
 
 function HeroImage() {
   return (
-    <div className="flex justify-center items-end space-x-2 sm:space-x-4 absolute bottom-0 w-screen text-center">
+    <div className="flex justify-center items-end space-x-2 sm:space-x-4 absolute bottom-0 w-full text-center">
       <HeroHand image={image1} />
       <HeroHand image={image2} />
       <HeroHand image={image3} />

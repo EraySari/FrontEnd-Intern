@@ -1,4 +1,3 @@
-import TeamCart from "./TeamCart";
 import teamPhoto1 from "@/public/teamPhoto1.png";
 import teamPhoto2 from "@/public/teamPhoto2.png";
 import teamPhoto3 from "@/public/teamPhoto3.png";

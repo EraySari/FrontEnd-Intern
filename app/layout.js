@@ -2,7 +2,7 @@ import "@/app/_styles/globals.css";
 import { Manrope } from "next/font/google";
 
 export const metadata = {
-  title: "Frontend Intern", //web sayfasi title
+  title: "Frontend Intern",
 };
 
 const manrope = Manrope({ subsets: ["latin"] });

@@ -2,12 +2,12 @@ import Image from "next/image";
 
 function ContactImage({ image }) {
   return (
-    <div className="w-1/2 h-full flex items-center justify-center relative">
+    <div className="md:w-1/2 hidden md:flex h-full md:items-center md:justify-center relative">
       <Image
         src={image}
         alt="contact-image"
         fill
-        className="object-contain h-full w-auto "
+        className="lg:object-contain lg:h-full lg:w-auto "
       />
     </div>
   );
