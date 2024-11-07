@@ -3,6 +3,7 @@ import MidSection from "./MidSection";
 import HomeBgSection from "./HomeBgSection";
 import TeamSection from "./TeamSection";
 import Metrics from "./Metrics";
+import ContactSection from "./ContactSection";
 
 function Page() {
   return (
@@ -17,6 +18,7 @@ function Page() {
       <MidSection />
       <TeamSection />
       <Metrics />
+      <ContactSection />
     </>
   );
 }
@@ -29,3 +31,9 @@ export default Page;
 //onun içinde yer alan absolute pozisyonlu öğeler, relative öğeye göre konumlandırılır.
 
 //en son hepsini first mid last gibi bölümlere ayir sonra onla ilili olanlari onun icinden cagir buraso cok karmasik olmasin
+
+//display flex özelliklerini degistir. Bir yerden sonra column olsun mesela alt alta gelsin responsive icin
+
+//85+ degil 85M
+
+//her baslik ayni ozelliklere sahip onlar icin bir sinif olustur

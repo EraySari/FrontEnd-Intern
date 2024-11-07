@@ -2,7 +2,7 @@ import TeamCart from "./TeamCart";
 
 function TeamGroup({ teamData }) {
   return (
-    <div className="flex justify-center items-center gap-8 sm:gap-10 lg:gap-20 pt-8 sm:pt-14">
+    <div className="flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-10 lg:gap-20 pt-8 sm:pt-14">
       {teamData.map((teamMember) => (
         <TeamCart
           key={teamMember.name}

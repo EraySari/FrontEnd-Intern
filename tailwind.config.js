@@ -13,6 +13,14 @@ module.exports = {
       colors: {
         primary: "#FFFFFF",
         metric: "#101010",
+        metricNumber: "#FEC00A",
+      },
+      fontSize: {
+        heroBg: "16rem",
+        intoText: "10rem",
+      },
+      height: {
+        custom: "36rem",
       },
     },
   },

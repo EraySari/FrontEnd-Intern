@@ -9,7 +9,7 @@ import BgShape from "@/public/BgShape.png";
 function HomeBgSection() {
   return (
     <>
-      <HeroSectionBG className="relative ">
+      <HeroSectionBG>
         <Image src={BG} alt="Hero Section" className="w-full h-screen" />
         <Image
           src={BgShape}
